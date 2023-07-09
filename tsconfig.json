@@ -1,0 +1,11 @@
+{
+     "compilerOptions": {
+          "target": "ES5"
+          ,"lib": ["DOM","DOM.Iterable"],
+          "module": "ESNext",
+          "jsx": "react",
+          "allowSyntheticDefaultImports": true,
+          "moduleResolution": "Node"
+     }
+     ,"include": ["src"]
+}

@@ -49,6 +49,7 @@ const SignupForm: React.FC = () => {
   const handleChange = (key: string, value: string | number) => {
     setUserData((prev) => ({ ...prev, [key]: value }));
   };
+
   return (
     <div className="form">
       <div className="type-select">

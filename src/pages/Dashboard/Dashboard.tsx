@@ -15,7 +15,6 @@ const Dashboard: React.FC = () => {
       }
     } catch (error) {
       console.error(error);
-      // Handle any error that occurred during the API request
     }
   };
 

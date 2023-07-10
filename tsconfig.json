@@ -5,7 +5,9 @@
           "module": "ESNext",
           "jsx": "react",
           "allowSyntheticDefaultImports": true,
-          "moduleResolution": "Node"
+          "moduleResolution": "Node",
+           "noImplicitAny": true,
+    "noImplicitThis": true,
      }
      ,"include": ["src"]
 }
